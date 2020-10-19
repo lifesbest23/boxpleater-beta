@@ -37,7 +37,9 @@ from math import cos as cos
 from math import sin as sin
 from math import radians as radians
 from tkinter import *
+
 master = Tk()
+
 canvas2 = Canvas(master,width=600,height = 450)
 canvas2.pack()
 
@@ -1093,4 +1095,7 @@ Things Boxpleater can't do (yet):
 
 #master.mainloop()
 
-from word_to_tree import *
+#from word_to_tree import *
+if __name__ =="__main__":
+    controller = Controller()
+    controller.run()
